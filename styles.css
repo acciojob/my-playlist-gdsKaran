@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+/* Page background */
+body {
+  background-color: rgb(204, 204, 204);
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+}
+
+/* Playlist */
+ul {
+  padding: 5px;
+ border: 1px solid black;
+	border-radius: 10px
+}
+
+li {
+  list-style-type: none;
+  text-decoration-line: none
+}
+
+/* Players styling */
+.player_one, .player_two {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: fit-content;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
